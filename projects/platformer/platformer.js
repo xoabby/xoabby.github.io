@@ -53,7 +53,7 @@ $(function () {
     createPlatform(520,630,10,500)
   createPlatform(860,400,23,50)
   createPlatform(987,400,23,50)
-
+  createPlatform(630,570,23,100)
 
 
     
