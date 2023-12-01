@@ -61,7 +61,11 @@ circles.push(circle);
             physikz.updatePosition( circle [4]);
 
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           
+            game.checkCirclePosition(/* [0] */);
+            game.checkCirclePosition(/* [1]*/);
+            game.checkCirclePosition(/* [2]*/);
+            game.checkCirclePosition(/* [3] */);
+            game.checkCirclePosition(/* [4] */);
 
             // TODO 9 : Iterate over the array
            
