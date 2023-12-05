@@ -38,6 +38,12 @@ circles.push(circle);
         drawCircle(2);
         drawCircle(3);
         drawCircle(4);
+        var loopsCompleted = 0;
+while (loopsCompleted < 10) {
+    loopsCompleted++;
+    for (var loopsCompleted = 0; loopsCompleted < 10; loopsCompleted++) {
+}
+
 
 
 
@@ -86,7 +92,10 @@ circles.push(circle);
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
             
-
+            game.checkCirclePosition = function (circle) {
+                if (circle.x > canvas.width) {
+                  circle.x = 0;
+                  var rightEdge = circle.x + circle.radius;
 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
         }
